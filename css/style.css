@@ -26,6 +26,7 @@
 .list-item 
 {
 	list-style-type: none;
+	text-decoration: none;
 	padding: 10px;
     float: left;    
 
@@ -35,4 +36,47 @@
 {
 	text-decoration: none;
 	color: #000000;
+}
+
+.list-valores
+{
+	list-style-type: none;
+}
+
+.row-contaimkt
+{
+	padding: 50px;
+}
+
+.row-mvv
+{
+	
+	width: 900px;
+	padding: 10px;
+	background-color: #FFD800;
+	margin-left: 100px;
+}
+
+.img-circulo
+{
+	margin: 0 auto;
+	width: 50%;
+}
+
+.recuo
+{	
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.img-cli
+{
+
+	padding: 10px;
+
+}
+
+.carousel-inner img
+{
+	margin-left: 100px;
 }
