@@ -10,199 +10,273 @@
         <link rel="icon" href="img/favicon.ico">
         <title>Frio Control</title>
     </head>    
-    <body>
-    <nav  id="myNavbar" class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Frio Control</a>
-    </div>
+    <body data-spy="scroll" data-target="#myNavbar" style="height: 100px;overflow: auto;position: relative;"><!--Scrollspy-->
+        <nav  id="myNavbar" class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Frio Control</a>
+                </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">        
-        <li class="active"><a href="#">INÍCIO</a></li>
-        <li><a href="#historia">HISTÓRIA</a></li>
-         <li><a href="#servicos">SERVIÇOS</a></li>
-         <li><a href="#clientes">CLIENTES</a></li>
-           <li><a href="#contatos">CONTATO</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-<div class="info">
-    <ul id="list-group">    
-         <li class="list-item"><a href="#"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;Telefones: (81)0000-0000</a></li>
-          <li class="list-item"><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;E-mail: contato@friocontrol.com.br</a></li>
-           <li class="list-item"><a href="#"><span class="glyphicon glyphicon-time" aria-hidden="true"></span>&nbsp;Horário de Atendimento: Seg/Sex - 8:00 às 18:00</a></li>
-      </ul>
-</div>
-<!-- Carousel-->
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">        
+                        <li><a href="#historia">HISTÓRIA</a></li>
+                        <li><a href="#servicos">SERVIÇOS</a></li>
+                        <li><a href="#clientes">CLIENTES</a></li>
+                        <li><a href="#contato-mapa">CONTATO</a></li>
+                        <li><a href="#contato-mapa">LOCALIZAÇÃO</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="info">
+            <ul id="list-group">    
+                <li class="list-item"><a href="#"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;Telefones: (81)0000-0000</a></li>
+                <li class="list-item"><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;E-mail: contato@friocontrol.com.br</a></li>
+                <li class="list-item"><a href="#"><span class="glyphicon glyphicon-time" aria-hidden="true"></span>&nbsp;Horário de Atendimento: Seg/Sex - 8:00 às 18:00</a></li>
+            </ul>
+        </div>
+        <!-- Carousel-->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="img/imagem1.png" alt="imagem1">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-    <div class="item">
-      <img src="img/imagem1.png" alt="imagem2">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-    <div class="item">
-      <img src="img/imagem1.png" alt="imagem2">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-  </div>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/imagem1.png" alt="imagem1">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/imagem1.png" alt="imagem2">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/imagem1.png" alt="imagem2">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+            </div>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div> <!-- Carousel-->
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div> <!-- Carousel-->
 
-    <div class="container contaimkt">
+        <div class="container contaimkt">
 
-       <div class="page-header">
-        <h2 id="historia"><img src="img/Imagem21.png" alt="image" width="20" height="20">&nbsp;História</h2>
-      </div>
+            <div class="page-header">
+                <h2 id="historia"><img src="img/Imagem21.png" alt="image" width="20" height="20">&nbsp;História</h2>
+            </div>
 
-      <div>
-          <p><h4>
-            Estamos atuando há 15 anos no mercado de climatização e refrigeração em três estados do Nordeste: Pernambuco, Paraíba e Sergipe.  
-            Nosso objetivo é proporcionar o máximo de conforto térmico com soluções inteligentes em climatização, atendendo de forma objetiva a necessidade dos nossos clientes, com qualidade e excelência na prestação dos serviços.
-          </h4></p>
-      </div>
-      <br/>
+            <div>
+                <h4><p>
+                        Estamos atuando há 15 anos no mercado de climatização e refrigeração em três estados do Nordeste: Pernambuco, Paraíba e Sergipe.  
+                        Nosso objetivo é proporcionar o máximo de conforto térmico com soluções inteligentes em climatização, atendendo de forma objetiva a necessidade dos nossos clientes, com qualidade e excelência na prestação dos serviços.
+                    </p></h4>
+            </div>
+            <br/>
 
-      <div class="container marketing contaimkt">
-      <!-- Three columns of text below the carousel -->      
-      <div class="row row-mvv">
-        <div class="col-lg-4">
-          <h4 class="h4-mvv"><b>Missão</b></h4>
-          <p>Superar sempre as expectativas de cada cliente, proporcionando serviços com excelência e de altíssima qualidade, preservando a ética,  transparência e honestidade em todas as operações.
-          </p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <h4 class="h4-mvv"><b>Visão</b></h4>
-          <p>Reconhecimento pela qualidade na prestação de serviços, e ser referencia no mercado de climatização.
-          </p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <h4 class="h4-mvv"><b>Valores</b></h4>            
-        <p>Excelência no atendimento</p>
-        <p>Satisfação dos clientes</p>
-        <p>Respeito e valorização do ser humano</p>
-        <p>Preservação do meio ambiente</p>
-        <p>Melhoria contínua</p>
-                       
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-      </div><!-- /.container marketing-->
+            <div class="container marketing contaimkt">
+                <!-- Three columns of text below the carousel -->      
+                <div class="row row-mvv">
+                    <div class="col-lg-4">
+                        <h4 class="h4-mvv"><b>Missão</b></h4>
+                        <p>Superar sempre as expectativas de cada cliente, proporcionando serviços com excelência e de altíssima qualidade, preservando a ética,  transparência e honestidade em todas as operações.
+                        </p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <h4 class="h4-mvv"><b>Visão</b></h4>
+                        <p>Reconhecimento pela qualidade na prestação de serviços, e ser referencia no mercado de climatização.
+                        </p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <h4 class="h4-mvv"><b>Valores</b></h4>            
+                        <p>Excelência no atendimento</p>
+                        <p>Satisfação dos clientes</p>
+                        <p>Respeito e valorização do ser humano</p>
+                        <p>Preservação do meio ambiente</p>
+                        <p>Melhoria contínua</p>
+
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+            </div><!-- /.container marketing-->
 
 
-      <div class="page-header">
-        <h2 id="servicos"><img src="img/Imagem21.png" alt="image" width="20" height="20">&nbsp;Servicos</h2>
-      </div>
+            <div class="page-header">
+                <h2 id="servicos"><img src="img/Imagem21.png" alt="image" width="20" height="20">&nbsp;Serviços</h2>
+            </div>
 
-      <p><h4>
-        Nossos serviços incluem projetos de instalação, manutenção, assessoria em sistemas de climatização com ênfase na área de ar condicionado central, ventilação, aquecimento e controle de unidade.
-      </h4></p>      
+            <p><h4>
+                Nossos serviços incluem projetos de instalação, manutenção, assessoria em sistemas de climatização com ênfase na área de ar condicionado central, ventilação, aquecimento e controle de unidade.
+            </h4></p>      
 
-      <div class="img-circulo">
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="img/servicos/Imagem12-menor.jpg" alt="image" width="140" height="140">          
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="img/servicos/Imagem16-menor.jpg" alt="image" width="140" height="140">          
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="img/servicos/Imagem15-menor.jpg" alt="image" width="140" height="140">        
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-      </div>
+        <div class="img-circulo">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="img-circle" src="img/servicos/Imagem12-menor.jpg" alt="image" width="140" height="140">          
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="img-circle" src="img/servicos/Imagem16-menor.jpg" alt="image" width="140" height="140">          
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="img-circle" src="img/servicos/Imagem15-menor.jpg" alt="image" width="140" height="140">        
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+        </div>
 
-      <div class="page-header">
-        <h2><img src="img/Imagem21.png" alt="image" width="20" height="20">&nbsp;Nossas Prioridades</h2>
-      </div>
+        <div class="page-header">
+            <h2><img src="img/Imagem21.png" alt="image" width="20" height="20">&nbsp;Nossas Prioridades</h2>
+        </div>
 
-      <h4 class="recuo"><b>Saúde & Segurança&nbsp;<img src="img/Imagem30.png" alt="image" width="20" height="20"></b></h4>
+        <h4 class="recuo"><b>Saúde & Segurança&nbsp;<img src="img/Imagem30.png" alt="image" width="20" height="20"></b></h4>
 
-      <p class="recuo">
-        Possuímos uma Política de segurança que incentiva o colaborador na manutenção do ambiente seguro e saudável. Trabalhamos para intensificar a cultura de segurança junto a todos nossos trabalhadores, através do cumprimento de todos os requisitos legais pertinentes quanto à saúde e segurança no trabalho. 
+        <p class="recuo">
+            Possuímos uma Política de segurança que incentiva o colaborador na manutenção do ambiente seguro e saudável. Trabalhamos para intensificar a cultura de segurança junto a todos nossos trabalhadores, através do cumprimento de todos os requisitos legais pertinentes quanto à saúde e segurança no trabalho. 
 
-        Elaboração e manutenção de Programas de Saúde e Segurança (PPRA, PCMSO); Capacitações dos colaboradores; Realização periódica de exames médicos; Ações educativas como palestras, DSS e treinamentos para desenvolver a conscientização do trabalhador e incentivar o comportamento seguro. 
-      </p>
+            Elaboração e manutenção de Programas de Saúde e Segurança (PPRA, PCMSO); Capacitações dos colaboradores; Realização periódica de exames médicos; Ações educativas como palestras, DSS e treinamentos para desenvolver a conscientização do trabalhador e incentivar o comportamento seguro. 
+        </p>
 
-      <h4 class="recuo"><b>Responsabilidade Ambiental&nbsp;<img src="img/Imagem24.png" alt="image" width="20" height="20"></b></h4>
+        <h4 class="recuo"><b>Responsabilidade Ambiental&nbsp;<img src="img/Imagem24.png" alt="image" width="20" height="20"></b></h4>
 
-      <p class="recuo">
-        Compromisso com a correta separação, armazenamento e descarte adequado de todos os resíduos gerados, conforme legislações ambientais vigentes. Atendimento a Portaria MS nº 3.523, de 28 de agosto de 1998, utilizando na limpeza dos componentes do sistema de climatização, produtos biodegradáveis devidamente registrados no Ministério da Saúde para esse fim (art. 5º, "b").
+        <p class="recuo">
+            Compromisso com a correta separação, armazenamento e descarte adequado de todos os resíduos gerados, conforme legislações ambientais vigentes. Atendimento a Portaria MS nº 3.523, de 28 de agosto de 1998, utilizando na limpeza dos componentes do sistema de climatização, produtos biodegradáveis devidamente registrados no Ministério da Saúde para esse fim (art. 5º, "b").
         <ul>
             <li>Certificado de regularidade do IBAMA</li> 
             <li>Licença ambiental da agencia estadual do meio ambiente - CPRH.</li>
             <li>Certificado de destinação final de gases de refrigeração e cilindros descartáveis - CRN</li>
         </ul>
-      </p>   
+    </p>   
 
-      <div class="page-header">
+    <div class="page-header">
         <h2 id="clientes"><img src="img/Imagem21.png" alt="image" width="20" height="20">&nbsp;Alguns de Nossos Clientes</h2>
-      </div>
+    </div>
 
-      <div class="row">
+    <div class="row">
         <div class="col-lg-4 img-cli">
-          <img src="img/clientes/Imagem6.png" class="img-thumbnail" alt="cliente img" width="250" height="190">        
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 img-cli">
-          <img src="img/clientes/Imagem7.png" class="img-thumbnail" alt="cliente img" width="250" height="190">          
+            <img src="img/clientes/Imagem6.png" class="img-thumbnail" alt="cliente img" width="250" height="190">        
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4 img-cli">
-          <img src="img/clientes/Imagem8.png" class="img-thumbnail" alt="client img" width="250" height="190">       
-        </div><!-- /.col-lg-4 -->
-         <div class="col-lg-4 img-cli">
-          <img src="img/clientes/Imagem9.png" class="img-thumbnail" alt="client img" width="250" height="190">          
+            <img src="img/clientes/Imagem7.png" class="img-thumbnail" alt="cliente img" width="250" height="190">          
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4 img-cli">
-          <img src="img/clientes/Imagem10.jpg" class="img-thumbnail" alt="client img" width="250" height="190">          
+            <img src="img/clientes/Imagem8.png" class="img-thumbnail" alt="client img" width="250" height="190">       
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4 img-cli">
-          <img src="img/clientes/Imagem11.jpg" class="img-thumbnail" alt="client img" width="250" height="190">       
+            <img src="img/clientes/Imagem9.png" class="img-thumbnail" alt="client img" width="250" height="190">          
         </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+        <div class="col-lg-4 img-cli">
+            <img src="img/clientes/Imagem10.jpg" class="img-thumbnail" alt="client img" width="250" height="190">          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 img-cli">
+            <img src="img/clientes/Imagem11-editada.jpg" class="img-thumbnail" alt="client img" width="250" height="190">       
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row --> 
+    <hr>          
+</div><!-- /.container--> 
+<br/><br/>
 
-    <!--Scrollspy-->
-    <div data-spy="scroll" data-target="#myNavbar" style="height: 100px;overflow: auto;position: relative;">  </div>
-          
-      </div><!-- /.container-->
+<div class="container-fluid">
+    <div class="wrap-contact-map" id="contato-mapa">
+        <h2>Contato e Localização</h2>
+        <!--Formulário de Contato-->
+        <section id="wrap-form">
+            <form method="post" action="contatoCliente.php">
+                <h4>Fale conosco:</h4>
+                <div class="form-group">
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" name="nome" placeholder="Nome">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                            <input type="email" class="form-control" name="email" placeholder="E-Mail">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                            <input type="telefone" class="form-control" name="telefone" placeholder="Telefone">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                            <textarea class="form-control" rows="5" name="mensagem">                        
+                            </textarea>
+                        </div>
+                    </div>
+                    <button type="submit" name="enviar" class="btn btn-primary btn-block">Enviar</button>
+                </div>                    
+            </form>        
+        </section><!--Formulário-->
 
-    <footer><a href=""><span></span></a></footer>
-    <script type="text/javascript" src="jquery/jquery.slim.js"></script>
-    <script type="text/javascript" src="js/funcoes.js"></script>    
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    </body>
+        <!--Mapa-->
+        <section id="wrap-mapa">
+            <h4>
+                Rua Pablo Neruda, 540 Centro
+                <br/>
+                CEP 00000-000 Recife - Pernambuco
+            </h4>
+            <div id="googleMap"></div>
+            <script>
+                function myMap() {
+                    var mapProp = {
+                        center: new google.maps.LatLng(-8.0578381, -34.8828969),
+                        zoom: 5,
+                    };
+                    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                }
+
+                function initMap() {
+                  var myLatLng = {lat: -8.0578381, lng: -34.8828969};
+
+                  var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    center: myLatLng
+                  });
+
+                  var marker = new google.maps.Marker({
+                    position: myLatLng,
+                    map: map,
+                    title: 'Mapa'
+                  });
+                }
+            </script>        
+        </section><!--Mapa-->        
+    </div>
+
+    <footer>        
+        <a id="fcontrol" href="#"><span class="glyphicon glyphicon-copyright-mark" aria hidden="true"></span>&nbsp;2017 Frio Control. Todos os direitos reservados.</a>
+
+        <a id="lamp" href="#">Desenvolvido por: Lamp.</a>        
+    </footer>
+
+</div><!--container-fluid--> 
+
+<script type="text/javascript" src="jquery/jquery.slim.js"></script>  
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtj3s3j5Mlbaeio4HTePunYawBOMV8iCo &callback=myMap"></script>
+</body>
 </html>
